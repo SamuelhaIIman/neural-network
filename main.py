@@ -1,7 +1,7 @@
 import numpy as np
 
 def mysigmoid(x):
-    return 1/(1+np.exp(-x)) # This makes the input numbers from nuerons into 0-1 decimal number
+    return 1/(1+np.exp(-x)) # This makes the input numbers from neurons into 0-1 decimal number
 
 mysigmoid(6.7)
 
@@ -16,8 +16,8 @@ class MyNeuron:
     
 weights = np.array([[0.5,0.8], [0.1, 0.3]])
 biases = np.array([2, -1])
-nuerons = MyNeuron(weights,biases)
+neurons = MyNeuron(weights,biases)
 
-x = np.array([3,4]) # Nueron weights
-outputs = nuerons.feedforward(x)
+x = np.array([3,4]) # Neuron weights
+outputs = neurons.feedforward(x)
 print(outputs)
