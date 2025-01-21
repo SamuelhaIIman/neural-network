@@ -19,19 +19,19 @@ This project is a simple implementation of a neural network using **only Python 
 ## Features
 
 1. Single Neuron Implementation:
-- Simulates the behavior of a single neuron with inputs, weights, and a bias.
-- Applies the sigmoid activation function to calculate the output.
+  - Simulates the behavior of a single neuron with inputs, weights, and a bias.
+  - Applies the sigmoid activation function to calculate the output.
 
 2. Multi-Neuron Layer:
-- Adds support for multiple neurons in a single layer.
-- Computes outputs for all neurons simultaneously.
+  - Adds support for multiple neurons in a single layer.
+  - Computes outputs for all neurons simultaneously.
 
 3. Multi-Layer Network:
-- Supports creating networks with multiple layers.
-- Performs forward propagation across all layers.
+  - Supports creating networks with multiple layers.
+  - Performs forward propagation across all layers.
 
 4. Fully Customizable:
-- You can modify the network's architecture by specifying the number of neurons in each layer.
+  - You can modify the network's architecture by specifying the number of neurons in each layer.
 
 ---
 
@@ -41,11 +41,14 @@ This project is a simple implementation of a neural network using **only Python 
 - NumPy (for matrix operations)
 
 To install NumPy, use:
-`pip install numpy`
+
+```bash
+pip install numpy
+```
 
 ---
 
-##Learning Objectives
+## Learning Objectives
 
 By working with this project, you will:
 
@@ -56,7 +59,7 @@ By working with this project, you will:
 
 ---
 
-##Future Work
+## Future Work
 
 - Add support for different activation functions (ReLU, Tanh, etc.).
 - Implement backpropagation for training the network.
