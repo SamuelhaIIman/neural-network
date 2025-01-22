@@ -1,6 +1,6 @@
 import numpy as np
 
-def mysigmoid(x):
+def sigmoidZeroToOneNumber(x):
     return 1/(1+np.exp(-x))
 
 class MultiLayerNetwork:
@@ -13,11 +13,11 @@ class MultiLayerNetwork:
             self.biases.append(np.random.rand(layer_sizes[i + 1], 1))
 
     def feedforward(self, inputs):
-        actavations = inputs
+        activations = inputs
         for W, b in zip(self.weights, self.biases):
-            z = np.dot(W, actavations) + b
-            actavations = mysigmoid(z)
-        return actavations
+            z = np.dot(W, activations) + b
+            activations = sigmoidZeroToOneNumber(z)
+        return activations
     
 layer_sizes = [2, 3, 1]
 
