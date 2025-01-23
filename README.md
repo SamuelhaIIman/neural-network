@@ -57,6 +57,22 @@ pip install numpy
 
 ---
 
+## Usage
+
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/Samuelhallman/neural-network.git
+    cd your-repo-name
+    ```
+2. Run the provided Python scripts to see:
+    - A single neuron in action.
+    - Outputs from multi-neuron and multi-layer networks.
+3. Modify the code to experiment with:
+    - Custom architectures.
+    - Different activation functions.
+
+---
+
 ## Future Work
 
 - Add support for different activation functions (ReLU, Tanh, etc.).
