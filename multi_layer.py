@@ -19,11 +19,11 @@ class MultiLayerNetwork:
             activations = mysigmoid(z)
         return activations
     
-layer_sizes = [2, 3, 1]
+layer_sizes = [3, 10, 5]
 
 network = MultiLayerNetwork(layer_sizes)
 
-x = np.array([[3], [4]])
+x = np.array([[3], [4], [1]])
 
 output = network.feedforward(x)
 print("Network Output: ", output)
